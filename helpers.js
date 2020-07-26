@@ -35,6 +35,6 @@ export const isValidMonth = month => {
 }
 
 export const isValidYear = year => {
-  return typeof year === 'number' && year > 0
+  return typeof year === 'number' && year >= 1900
 }
 
